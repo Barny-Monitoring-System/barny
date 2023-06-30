@@ -7,6 +7,8 @@ Helps you monitor different servers and aggregates data in web page UI.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+For diagrams, more precise and deep documentation, check the [docs folder.](./docs)
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
