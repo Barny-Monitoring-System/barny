@@ -24,6 +24,9 @@ jobs:
       matrix:
         projects: [barny-agent, barny-server]
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Run Python linter
         run: echo Stub for ${{ matrix.projects }}
 
