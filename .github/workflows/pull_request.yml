@@ -7,19 +7,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  Tests:
+
+  Linting:
     runs-on: ubuntu-latest
-
     steps:
-
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Run Markdown linter
         run: echo Stub
+  
 
-      - name: Run linter
-        run: echo Stub
+  UnitTesting:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        projects: [barny-agent, barny-server]
+    steps:
+      - name: Run Python linter
+        run: echo Stub for ${{ matrix.projects }}
 
       - name: Run tests
-        run: echo Stub
+        run: python3 -m unittest discover ${{ matrix.projects }}
