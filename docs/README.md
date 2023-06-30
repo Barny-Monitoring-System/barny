@@ -1,6 +1,6 @@
 # Architecture
 
-## UML Diagrams 
+## UML Diagrams
 
 ### Use Case Diagram
 
