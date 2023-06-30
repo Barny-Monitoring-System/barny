@@ -15,6 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Run Markdown linter
+        run: Stub
+
       - name: Run linter
         run: echo Stub
 
