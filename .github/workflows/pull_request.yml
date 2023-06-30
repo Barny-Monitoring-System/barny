@@ -27,6 +27,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Install required dependencies
+        run: pip3 install -r ${{ matrix.projects }}/requirements.txt
+
       - name: Run Python linter
         run: echo Stub for ${{ matrix.projects }}
 
