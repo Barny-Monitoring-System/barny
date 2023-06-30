@@ -23,7 +23,8 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-End with an example of getting some data out of the system or using it for a little demo
+End with an example of getting some data
+out of the system or using it for a little demo
 
 ## Running the tests (TODO)
 
@@ -59,4 +60,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-[README File Template that was used here.](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+[README](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
