@@ -32,7 +32,7 @@ jobs:
         run: pip3 install -r ${{ matrix.projects }}/requirements.txt
 
       - name: Run Python linter
-        run: echo Stub for ${{ matrix.projects }}
+        uses: jpetrucciani/ruff-check@main
 
       - name: Run tests
         run: python3 -m unittest discover ${{ matrix.projects }}
