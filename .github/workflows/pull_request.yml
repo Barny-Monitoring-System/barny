@@ -8,6 +8,15 @@ on:
 
 jobs:
 
+  CheckTheIssueNumber:
+    runs-on: ubuntu-lates
+    steps:
+      - name: Check PR title to be correct
+        uses: Slashgear/action-check-pr-title@v4.3.0
+        with:
+          regexp: "^#[0-9]+:.+"
+          flags: g
+
   Linting:
     runs-on: ubuntu-latest
     steps:
