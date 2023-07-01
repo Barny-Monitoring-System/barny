@@ -19,6 +19,9 @@ jobs:
         with:
           globs: '**/*.md'
 
+      - name: Run Python Linter
+        uses: jpetrucciani/ruff-check@main
+
   UnitTesting:
     runs-on: ubuntu-latest
     strategy:
@@ -30,9 +33,6 @@ jobs:
 
       - name: Install required dependencies
         run: pip3 install -r ${{ matrix.projects }}/requirements.txt
-
-      - name: Run Python linter
-        uses: jpetrucciani/ruff-check@main
 
       - name: Run tests
         run: python3 -m unittest discover ${{ matrix.projects }}
