@@ -1,5 +1,5 @@
 # Enable flake8-bugbear (`B`) rules.
-select = ["E", "F", "W", "B","N", "C90", "I", "ASYNC", "S", "BLE", "A", "COM", "C4", "DTZ", "DJ", "PYI", "RET", "SIM", "ARG", "PL", ""]
+select = ["E", "F", "W", "B","N", "C90", "I", "ASYNC", "S", "BLE", "A", "COM", "C4", "DTZ", "DJ", "PYI", "RET", "SIM", "ARG", "PL"]
 
 # Never enforce `E501` (line length violations).
 ignore = ["N999"]
