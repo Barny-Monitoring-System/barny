@@ -9,7 +9,7 @@ on:
 jobs:
 
   CheckTheIssueNumber:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Check PR title to be correct
         uses: Slashgear/action-check-pr-title@v4.3.0
