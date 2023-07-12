@@ -2,7 +2,7 @@
 select = ["E", "F", "W", "B","N", "C90", "I", "ASYNC", "S", "BLE", "A", "COM", "C4", "DTZ", "DJ", "PYI", "RET", "SIM", "ARG", "PL"]
 
 # Never enforce `E501` (line length violations).
-ignore = ["N999"]
+ignore = ["N999", "N806", "I001"]
 
 # Avoid trying to fix flake8-bugbear (`B`) violations.
 unfixable = []

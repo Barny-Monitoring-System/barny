@@ -29,7 +29,7 @@ out of the system or using it for a little demo
 ## Running the tests
 
 In case if you want to test specific python project,
-you want to run next command: 
+you want to run next command:
 ```python3 -m unittest discover { project name }```
 
 ### Break down into end to end tests (TODO)
