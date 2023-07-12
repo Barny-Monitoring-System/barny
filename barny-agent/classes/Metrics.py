@@ -8,4 +8,4 @@ class Metrics:
         for source in self._metric_sources:
             metrics.update(source.metrics())
 
-        return metrics
+        return { "barny": metrics }
