@@ -12,5 +12,5 @@ class Cpu:
         return {
             "cpu": {
                 "usage_percent": self.percent(),
-            }
+            },
         }

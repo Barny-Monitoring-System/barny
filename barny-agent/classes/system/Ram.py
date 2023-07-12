@@ -17,5 +17,5 @@ class Ram:
                 "total": self.total(),
                 "used": self.used(),
                 "percent": self.percent(),
-            }
+            },
         }

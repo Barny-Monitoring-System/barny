@@ -17,5 +17,5 @@ class Swap:
                 "total": self.total(),
                 "used": self.used(),
                 "percent": self.percent(),
-            }
+            },
         }

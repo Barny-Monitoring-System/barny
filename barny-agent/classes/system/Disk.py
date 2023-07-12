@@ -20,5 +20,5 @@ class Disk:
                 "total": self.total(),
                 "used": self.used(),
                 "percent": self.percent(),
-            }
+            },
         }
