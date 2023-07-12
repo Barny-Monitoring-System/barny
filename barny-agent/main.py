@@ -14,6 +14,6 @@ def read_metrics():
             Cpu(),
             Ram(),
             Swap(),
-            Disk()
-        ]
+            Disk(),
+        ],
     ).metrics()
