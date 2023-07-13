@@ -33,7 +33,7 @@ def add_new(agent: AgentModel):
 
 @router.put("/{agent_id}")
 def update(agent_id: int, agent: AgentModel):
-    TEST_SET[agent_id] = TEST_SET[agent_id] | agent.dict()
+    TEST_SET[agent_id] = TEST_SET[agent_id] | agent.dictionary()
 
     return TEST_SET[agent_id]
 
