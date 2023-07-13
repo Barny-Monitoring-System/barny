@@ -26,9 +26,11 @@ Say what the step will be
 End with an example of getting some data
 out of the system or using it for a little demo
 
-## Running the tests (TODO)
+## Running the tests
 
-Explain how to run the automated tests for this system
+In case if you want to test specific python project,
+you want to run next command:
+```python3 -m unittest discover { project name }```
 
 ### Break down into end to end tests (TODO)
 
